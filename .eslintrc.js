@@ -11,7 +11,7 @@ module.exports = {
       sourceType: 'module',
     },
     rules: {
-      'no-console': 'off', // Разрешить использование console.log()
+      'no-console': 'off', 
     },
   };
   
