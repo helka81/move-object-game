@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack",
-    "lint": "eslint . --ignore-pattern .eslintignore",
+    "lint": "eslint .",
     "test": "npm run lint && jest",
     "lint:fix": "eslint . --fix"
   },
