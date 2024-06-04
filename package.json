@@ -10,7 +10,7 @@
     "start": "webpack serve --open",
     "build": "webpack",
     "lint": "eslint .",
-    "test": "npm run lint && jest",
+    "test": "jest --coverage",
     "lint:fix": "eslint . --fix"
   },
   "author": "",
@@ -33,5 +33,6 @@
   },
   "dependencies": {
     "core-js": "^3.37.0"
-  }
+  },
+    "testEnvironment": "jsdom"
 }
